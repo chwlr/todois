@@ -1,19 +1,23 @@
 import React from "react";
+import { FaPizzaSlice } from "react-icons/fa";
 
 export const Header = () => {
+  const x = 1;
   return (
-    <Header className="header" data-testid="header">
+    <div className="header" data-testid="header">
       <nav>
         <div className="logo">
-          <img src="" alt="todois" />
+          <img src="/image/logo.png" alt="todois" />
         </div>
         <div className="settings">
           <ul>
             <li>+</li>
-            <li>pizza slice</li>
+            <li>
+              <FaPizzaSlice />
+            </li>
           </ul>
         </div>
       </nav>
-    </Header>
+    </div>
   );
 };
